@@ -131,22 +131,22 @@ body {
         }
 
         div.anna {
-            display: flex;
-            padding-left: 30px;
-
+            padding-top: 3px;
             img {
-                height: 55px;
-
+                height: 50px;
+                padding-left: 30px;
             }
-
-            p {
-                padding-top: 60px;
+            p {   
+                padding-top: 2px;
+                padding-left: 10px;
+                font-size: 20px;
             }
 
         }
     }
-    section#reel-box{
-        div{
+
+    section#reel-box {
+        div {
             display: flex;
             padding-top: 15px;
             padding-left: 40px;
@@ -155,15 +155,43 @@ body {
             font-size: 25px;
         }
     }
-    section#uploaded{
-        div.pic{
+
+    section#uploaded {
+        div.pic {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 1px;
+            padding-top: 10px;
 
-            img{
+            img {
+                aspect-ratio: 1/1.3;
                 width: 100%;
                 height: 100%;
+            }
+        }
+    }
+
+    footer {
+
+        #foot {
+            
+            .last {
+                display: flex;
+                justify-content: space-between;
+                font-size: 1.6em;
+                position: fixed;
+                bottom: 0;
+                padding-right: 10px;
+                height: 40px;
+                gap: 61px;
+                align-items: center;
+                background-color: black;
+                padding-left: 15px;
+                 img {
+                    width: 30px;
+                    height: 30px;
+                    padding-top: 5px;
+                }
             }
         }
     }
